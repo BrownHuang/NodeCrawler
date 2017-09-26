@@ -1,0 +1,17 @@
+{
+  "name": "node_crawler",
+  "version": "1.0.0",
+  "description": "news_json",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
+  },
+  "author": "Brown Huang",
+  "license": "MIT",
+  "dependencies": {
+    "express":"^4.15.5",
+    "cheerio":"^1.0.0-rc.2",
+    "request": "^2.82.0"
+  }
+}
