@@ -55,7 +55,7 @@ app.get('/Detail',function(req,res){
                 if(e || !b) { return; }
                 var $ = cheerio.load(b);
                 var result = [];   
-                var contents = $(".content p").text().trim();
+                var contents = $(".text p").text().trim();
                 result.push(contents);
                 res.send(JSON.stringify(result));                                                    
               });
