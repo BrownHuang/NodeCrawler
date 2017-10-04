@@ -26,7 +26,7 @@ app.get('/', function(req, res){
         var $ = cheerio.load(b);
         var result = [];
         var titles = $(".list p");
-        var imgs = $(".list img"); 
+        var imgs = $(".list a.ph img"); 
         var times = $(".list span");        
         var urls = $(".list a.tit");
         for(var i=0;i<titles.length;i++) {
