@@ -28,7 +28,7 @@ app.get('/', function(req, res){
         var titles = $(".list p");
         var imgs = $(".list img"); 
         var times = $(".list span");        
-        var urls = $(".list a");
+        var urls = $(".list a.tit");
         for(var i=0;i<titles.length;i++) {
             //var obj = {};
             obj = {};
